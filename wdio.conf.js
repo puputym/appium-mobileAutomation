@@ -61,7 +61,7 @@ export const config = {
         "appium:automationName"     : 'UiAutomator2',
         "appium:deviceName"         : '<INSERT DEVICE NAME>',
         "appium:platformVersion"    : '11.0',
-        "appium:app"                : path.join(process.cwd(),'./test/apk/ApiDemos-debug.apk'),
+        "appium:app"                : path.join(process.cwd(),'./test/apk/Diet_meal.apk'),
         "appium:appPackage"         : "io.appium.android.apis",
         "appium:appActivity"        : ".ApiDemos",
         "appium:noReset"            : true,
